@@ -1,0 +1,36 @@
+header {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  justify-content: space-between;
+  display: flex;
+}
+body {
+  min-height: 100vh;
+}
+header ul {
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+header ul li a {
+  display: block;
+  text-align: center;
+  background-color: salmon;
+  margin: 30px;
+  color: rgb(33, 4, 70);
+  width: 200px;
+  height: 30px;
+}
+footer {
+  background-color: tomato;
+  text-align: right;
+  font-size: 20px;
+}
+main {
+  border: 1px solid black;
+  text-align: center;
+  margin: 10%;
+}
